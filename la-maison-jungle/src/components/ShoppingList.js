@@ -1,4 +1,5 @@
 import { plantList } from '../datas/PlantList'
+import '../styles/ShoppingList.css'
 
 function ShoppingList() {
     const categories = plantList.reduce(
